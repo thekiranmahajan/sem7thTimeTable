@@ -26,10 +26,10 @@ thead tr th,
 thead tr td {
   padding: 1vw;
   text-align: center;
-  border: 0.1vh solid #0009;
+  border: 0.1vh dashed rgba(3, 102, 251, 0.6);
 }
 .recess {
-  transform: rotate(90deg);
+  transform: rotate(45deg);
 }
 table {
   border-collapse: collapse;
