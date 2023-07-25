@@ -118,9 +118,9 @@ footer {
     padding: 2vw;
   }
   span {
-  font-size:1.7vw;
-  font-family: "Ubuntu", sans-serif;
-}
+    font-size: 1.7vw;
+    font-family: "Ubuntu", sans-serif;
+  }
   header {
     display: flex;
     flex-direction: column;
