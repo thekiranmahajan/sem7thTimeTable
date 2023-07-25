@@ -13,8 +13,8 @@
   flex-direction: column;
   background: url(./VBKCOELOGO.png) no-repeat center;
   /* background:  #17191A url(./VBKCOELOGO.png) no-repeat center; */
-  background-size: 70vw;
-  height: 100vh;
+  background-size: 30vw;
+  height: 99vh;
   width: 100%;
 }
 header {
