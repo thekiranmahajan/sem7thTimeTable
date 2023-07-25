@@ -11,7 +11,8 @@
   justify-content: center;
   flex-direction: column;
   background: url(./VBKCOELOGO.png) no-repeat center;
-  background-size: 70vh;
+  /* background:  #17191A url(./VBKCOELOGO.png) no-repeat center; */
+  background-size: 70vw;
   height: 100vh;
   width: 100%;
 }
@@ -28,7 +29,7 @@ thead tr th,
 thead tr td {
   padding: 1vw;
   text-align: center;
-  border: 0.1vh dashed rgba(3, 102, 251, 0.6);
+  border: 0.1vw dashed rgba(3, 102, 251, 0.6);
 }
 .recess {
   font-family: "Tektur", cursive;
@@ -36,7 +37,7 @@ thead tr td {
 }
 table {
   border-collapse: collapse;
-  height: 85vh;
+  height: 85vw;
   width: 95vw;
   background: linear-gradient(
     135deg,
@@ -60,18 +61,26 @@ tbody tr th,
 thead tr th {
   font-family: "Tektur", cursive;
   background-color: #aab7b836;
+  /* background-color: #1D2021; */
+
   font-weight: 900;
   font-size: 1.5vw;
 }
 thead tr td {
   background-color: #aab7b836;
+  /* background-color: #1D2021; */
 }
 tbody tr td,
 thead tr td {
   font-size: 1.2vw;
   font-weight: 600;
 }
-@media screen and (max-width: 768px) {
+footer {
+  display: none;
+  margin-top: 20vw;
+  font-size: 1.5vw;
+}
+/* @media screen and (max-width: 768px) {
   .container {
     justify-content: center;
     background-size: 30vh;
@@ -82,5 +91,46 @@ thead tr td {
   table {
     padding: 0.2%;
     width: 98%;
+  }
+} */
+@media screen and (max-width: 600px) {
+  .container {
+    justify-content: center;
+    background-size: 45vw;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  table {
+    padding: 0.2%;
+    width: 98%;
+    height: 50%;
+  }
+  tbody tr td,
+  thead tr td {
+    font-size: 1.8vw;
+    font-weight: 700;
+  }
+  tbody tr th,
+  thead tr th {
+    font-weight: 900;
+    font-size: 2.2vw;
+    padding: 2vw;
+  }
+  span {
+  font-size:1.7vw;
+  font-family: "Ubuntu", sans-serif;
+}
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vw;
+    font-size: 5vw;
+    font-weight: 900;
+  }
+  footer {
+    display: block;
   }
 }
