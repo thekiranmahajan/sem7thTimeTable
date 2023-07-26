@@ -142,7 +142,7 @@ footer {
     );
     border-color: rgba(48, 52, 54, 0.18);
     box-shadow: rgba(0, 0, 0, 0.37) 0px 8px 32px 0px;
-      backdrop-filter: blur(0.3vmax);
+    backdrop-filter: blur(0.3vmax);
   }
   thead tr td {
     background-color: #212525;
